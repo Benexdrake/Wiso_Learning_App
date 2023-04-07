@@ -6,6 +6,20 @@
         {
             var WisoList = new List<Wiso_Q>();
 
+            //WisoList.Add(new Wiso_Q()
+            //{
+            //    Id = WisoList.Count + 1,
+            //    Choices = 1,
+            //    IsMultipleChoice = false,
+            //    QuestionHeader = "",
+            //    Question = "",
+            //    AnswerHeader = "",
+            //    Answers = new[] {
+            //         "",
+            //         ""
+            //         }
+            //});
+
             // SO-13
 
             WisoList.Add(new Wiso_Q()
@@ -14,7 +28,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "Die Pflichten von Auszubildenden sind im Berufsbildungsgesetz (BBIG) und in der Verordnung über die Berufsausbildung geregelt.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aufgaben sind Pflichten des Auszubildenden Varsten Vogt?",
                 AnswerHeader = "",
                 Answers = new[] {"Erledigung von betrieblichen Aufgaben, die nicht dem Ausbildungszweck dienen",
@@ -32,7 +45,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "Herr Vogt nennt Ansprüche, die ihm die WÄRMGUT GmbH erfüllen soll",
-                PicturePath = "",
                 Question = "Welche der folgenden Ansprüche muss die WÄRMGUT GmbH aufgrund der rechtlichen Bestimmungen nicht erfüllen",
                 AnswerHeader = "",
                 Answers = new[] {"Verkürzung der Probezeit auf zwei Wochen",
@@ -50,7 +62,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Auszubildende Hanna Schmidt bittet Sie kurz vor erfolgreicher Beendigung ihrer Ausbildung um eim qualifiziertes Zeugnis.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen müssen Sie nach den gesetzlichen Vorschriften berücksichtigen?",
                 AnswerHeader = "Das qualifizierte Zeugnis ...",
                 Answers = new[] {"bedarf der Zustimmung des Betriebsrats.",
@@ -66,7 +77,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die WÄRMGUT GmbH hat im Rahmen der Berufsausbildung gegenüber der Industrie- und Handelskammer (IHK) Rechte und Pflichten.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {"Recht, Auszubildende ohne Zustimmung der IHK auszubilden",
@@ -82,7 +92,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Europäische Arbeitnehmer haben ein Recht auf Freizügigkeit, d.h. dass sie sich in Ländern wie Spanien, Italien oder Großbritannien einen Arbeitsplatz suchen können.",
-                PicturePath = "",
                 Question = "Welche der folgenden Einrichtungen bietet Arbeitnehmern einen Service, ihre Qualifikation und Fähigkeiten in vorbereiteten Formularen so darzustellen, dass sie europaweit verständlich sind?",
                 AnswerHeader = "",
                 Answers = new[] {"UNESCO",
@@ -97,7 +106,6 @@
                 Id = WisoList.Count + 1,
                 Choices = 1,
                 IsMultipleChoice = false,
-                PicturePath = "",
                 QuestionHeader = "Die Ausbildungsleiterin der WÄRMGUT GmbH, Frau Bruckmann, schlägt vor, dass Sie mittelfristig auch als Ausbilder arbeiten sollen.",
                 Question = "Welche der folgenden Vorraussetzungen müssen Sie nach den gesetzlichen Regelungen u. a. erfüllen, um als verantwoorlicher Ausbilder von der zuständigen IHK anerkannt zu werden?",
                 AnswerHeader = "Sie müssen ...",
@@ -114,7 +122,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "In der WÄRMGUT GmbH soll die Stelle des Programmiers Ralf Schmidt, der in den Ruhestand geht, neu besetzt werden. Herr Schmidt hatte einen unbefristeten Arbeitsvertrag",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen zur Neubesetzung der Stelle ist zutreffend?",
                 AnswerHeader = "Die WÄRMGUT GmbH ...",
                 Answers = new[] {"muss die freie Stelle der Bundesagentur für Arbeit melden.",
@@ -130,7 +137,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Sie sollen neue Mitarbeiter und Auszubildende der WÄRMGUT GmbH über Regelungen nach dem Entgeldfortzahlungsgesetz im Falle einer Arbeitsunfähigkeit informieren.",
-                PicturePath = "",
                 Question = "Welche der folgenden Fragen im Zusammenhang mit einer ärztlich festgestellten Arbeitsunfähigkeit von Mitarbeitern müssen Sie mit 'Ja' beantworten?",
                 AnswerHeader = "",
                 Answers = new[] {"Muss ich mehr als ein Jahr in der WÄRMGUT GmbH gearbeitet haben, um bei Krankheit einen Anspruche auf Fortzahlung meines Arbeitsentgelts zu haben?",
@@ -146,7 +152,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "In der WÄRMGUT GmbH soll eine neue Betriebsvereinbarung getroffen werden, an deren Ausarbeitung Sie beteiligt sind.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen zu einer Betriebsvereinbarung sind zutreffend?",
                 AnswerHeader = "Eine Betriebsvereinbarung ...",
                 Answers = new[] {"muss zwischen der Geschäftsleitung und der entsprechenden Gewerkschaft abgeschlossen werden.",
@@ -163,7 +168,6 @@
                 Choices = 4,
                 IsMultipleChoice = true,
                 QuestionHeader = "Die WÄRMGUT GmbH muss in Zuge einer Umstrukturierung eine Abteilung auflösen und Mitarbeiter entlassen.",
-                PicturePath = "",
                 Question = "Sie sollen prüfen, für welche der folgenden Mitarbeitgruppen eine besonderer Kündigungsschutz besteht.",
                 AnswerHeader = "",
                 Answers = new[] {"Handlungsbevollmächtigte",
@@ -184,24 +188,7 @@
                 Id = WisoList.Count + 1,
                 Choices = 1,
                 IsMultipleChoice = false,
-                QuestionHeader = "Die WÄRMGUT GmbH lässt eine neue Fertigungsstraße installieren. An einer Tür sehen Sie das abgebildete Warnzeichen:",
-                PicturePath = "2000px-DIN_4844-2_Warnung_vor_Laserstrahl_D-W010.svg.png",
-                Question = "Vor welcher der folgenden Gefahren warnt dieses Zeichen?",
-                AnswerHeader = "",
-                Answers = new[] {"Elektromagnetische Felder",
-                     "Laserstrahl",
-                     "Radioaktive Stoffe",
-                     "Explosive Stoffe",
-                     "Rotierende Maschinenteile"}
-            });
-
-            WisoList.Add(new Wiso_Q()
-            {
-                Id = WisoList.Count + 1,
-                Choices = 1,
-                IsMultipleChoice = false,
                 QuestionHeader = "Die WÄRMGUT GmbH hat für die Sicherheit ihrer Mitarbeiter am Arbeitsplatz zu sorgen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Stellen ist Ansprechpartner der WÄRMGUT GmbH bei Angelegenheiten der Arbeitssicherheit?",
                 AnswerHeader = "",
                 Answers = new[] {"Amt für Arbeitsschutz und Sicherheitstechnik (Gewerbeaufsicht)",
@@ -218,7 +205,6 @@
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Sozialversicherungsbeiträge für Vollbeschäftigte müssen vom Arbeitgeber vollständig an eine der folgenden Institutionen überwiesen werden." +
                            "\nVon dort aus werden die einzelnen Beiträge an die entsprechenden Stellen weitergeleitet.",
-                PicturePath = "",
                 Question = "An welche der folgenden Institutionen muss die WÄRMGUT GmbH die Beiträge zur Sozialversicherung überweisen?",
                 AnswerHeader = "",
                 Answers = new[] {"Agentur für Arbeit",
@@ -235,7 +221,6 @@
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Persoberatung KG führt in der WÄRMGUT GmbH eine Maßnahme zur Personalentwicklung durch, an der Sie teilnehmen sollen." +
                            "\nUnter  anderem werden für Mitarbeiter Potenzialanalysen erstellt.",
-                PicturePath = "",
                 Question = "Welche deer folgenden Aussagen bescheibt die Potenzialanalyse?",
                 AnswerHeader = "",
                 Answers = new[] {"Vorgesetzte sprechen mit Mitarbeitern über Aufstiegsmöglichkeiten.",
@@ -250,25 +235,7 @@
                 Id = WisoList.Count + 1,
                 Choices = 1,
                 IsMultipleChoice = false,
-                QuestionHeader = "Für das aktuelle Smartphone des Marktführers wird ein Nachfolgemodell für das IV. Quartal angekündigt." +
-                           "Folgende Grafik zur Marktsituation des aktuellen Modells liegt vor.",
-                PicturePath = "20",
-                Question = "Welche der folgenden Aussagen können Sie ohne zusätzliche Informationen aus der Grafik ableiten?",
-                AnswerHeader = "Im III. Quartal ...",
-                Answers = new[] {"wurden die Werbemaßnahmen erhöht",
-                     "wurde das Angebot vergrößert.",
-                     "wurde kein MArktgleichgewichtspreis erreicht.",
-                     "sinkt der Marktpreis.",
-                     "wirkte sich die höhere Nachfrage nach einem Komplementärprodukt aus."}
-            });
-
-            WisoList.Add(new Wiso_Q()
-            {
-                Id = WisoList.Count + 1,
-                Choices = 1,
-                IsMultipleChoice = false,
                 QuestionHeader = "In einem Arbeitstreffen analysieren Sie verschiedene Marktsituationen.",
-                PicturePath = "",
                 Question = "Welcher der folgenden Indikatoren weist auf einen Käufermarkt hin?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -286,7 +253,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Bei gleichbleibender Leistungserstellung will die WÄRMGUT GmbH die Arbeitsproduktivität je Mitarbeiter steigern.",
-                PicturePath = "",
                 Question = "Welche der folgenden Maßnahmen ist dazu geeignet?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -304,7 +270,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Sie sollen für das abgelaufene Geschäftsjahr die Eigenkapitalrentabilität der WÄRMGUT GmbH ermitteln.",
-                PicturePath = "",
                 Question = "Mit welcher der folgenden Formeln wird die Eigenkapitalrentabilität in Prozent berechnet?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -322,7 +287,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "Die WÄRMGUT GmbH will ein Tochterunternehmen in der Rechtsform einer GmbH mit vorerst zehn Mitarbeitern gründen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Vorschriften sind dabei zu beachten?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -341,7 +305,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die WÄRMGUT GmbH schließt mit der Weber AG einen Vertrag über die Aufrüstung von 500 Steueranlagen zu einem Festpreis.",
-                PicturePath = "",
                 Question = "Mit welcher der folgenden Maßnahmen handelt sie nach dem Minimalprinzip?",
                 AnswerHeader = "Minimierung ...",
                 Answers = new[] {
@@ -359,7 +322,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Subsidiarität ist ein gesellschaftspolitisches Prinzip, das in der Bundesrepublik Deutschland angewendet wird.",
-                PicturePath = "",
                 Question = "Welcher der folgenden Sachverhalte entspricht dem Prinzip Subsidiarität?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -377,7 +339,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die WÄRMGUT GmbH handelt mit Unternehmen in den Usa. In einem bestimmten Zeitraum ist der Kurs des EUR von 1,40 USD auf 1,20 USD gefallen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Auswirkungen ist aufgrund dieser Entwicklung in der Regel zu erwarten?",
                 AnswerHeader = "Die WÄRMGUT GmbH ...",
                 Answers = new[] {
@@ -395,7 +356,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Sie wollen sich mit einem Server-Ferndiagnosedienst selbstständig machen. Bei den Kreditgesprächen mit einer Bank wird die Vorlage eines Businessplanes verlangt.",
-                PicturePath = "",
                 Question = "An welcher der folgenden Stellen in Ihrem Businessplan erwartet die Bank Aussagen zu anderen Unternehmen, die ähnliche Dienstleistungen anbieten?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -419,7 +379,6 @@
                                  "\n56% Marktanteil in der Region" +
                                  "\n58 Mitarbeiter" +
                                  "\n610.000 EUR Gewinn im Jahr 2014",
-                PicturePath = "",
                 Question = "Welche der folgenden Angaben trifft auf die Krypto-Control GmbH zu?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -437,7 +396,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "In der Krypto-Control GmbH muss das Allgemeine Gleichbehandlungsgesetz (AGG) beachtet werden.",
-                PicturePath = "",
                 Question = "In welchem der folgenden FFälle erfolgt eine Diskriminierung im Sinne des AGG?",
                 AnswerHeader = "Die Krypto-Control GmbH ...",
                 Answers = new[] {
@@ -455,7 +413,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "In der Krypto-Control GmbH muss die Arbeitssicherheit gewährleistet sein.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen trifft auf die Arbeitssicherheit in Unternehmen zu?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -473,7 +430,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Das Arbeitsverhältnis einer neuen Mitarbeitering mit der Krypto-Control GmbH ist in einem schriftlichen Arbeitsvertrag geregelt.",
-                PicturePath = "",
                 Question = "Bei welchem der folgenden Bestandteile des Arbeitsvertrags ist der Arbeitgeber an kollektives Arbeitsrecht gebunden?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -491,7 +447,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Krypto-Control GmbH ist Mitglued eines Arbeitgeberverbandes.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen trifft auf Arbeitgeberverbände zu?",
                 AnswerHeader = "Arbeitgeberverbände ...",
                 Answers = new[] {
@@ -509,7 +464,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Viele Mitarbeiter der Krypto-Control GmbH sind Mitglieder einer Gewerkschaft.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen trifft auf Gewerkschaft zu?",
                 AnswerHeader = "Gewerkschaften ...",
                 Answers = new[] {
@@ -527,7 +481,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "In der Krypto-Control GmbH wurde ein Betriebsrat gewählt.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen über den Betriebsrat ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -545,7 +498,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "Die Geschäftsleitung der Krypto-Control GmbH arbeitet end mit dem Betriebsrat zusammen.",
-                PicturePath = "",
                 Question = "In welchen der folgenden Angelegenheiten hat der Betriebsrat laut Betriebsverfassungsgesetz ein Mitbestimmungsrecht?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -564,7 +516,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Für Arbeitgeber und Arbeitnehmer ist die Tarifautonomie gesetzlich festgeschrieben.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen treffen auf die Tarifautonomie zu?",
                 AnswerHeader = "Die Tarifautonomie ...",
                 Answers = new[] {
@@ -583,7 +534,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Arbeitnehmer der Krypto-Control GmbH wollen sich weiterbilden.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen zur Weiterbildung ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -601,7 +551,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Eine Mitarbeiterin der Krypto-Control GmbH ist arbeitsunfähig, weil sie am Vortag auf dem direkten Weg zur Arbeit bei einem Verkehrsunfall schwer verletzt wurde.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen ist in diesem Zusammenhang zutreffend?",
                 AnswerHeader = "Die Krypto-Control GmbH ...",
                 Answers = new[] {
@@ -619,7 +568,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Nach der letzten Gehaltserhöhung übersteigt das Bruttogehalt von Dagmar Fuchs die Beitragsbemessungsgrenze für die gesetliche Rentenversicherung.",
-                PicturePath = "",
                 Question = "Welche der folgenden Konsequenzen ergibt sich aus der Gehaltserhöhung für Frau Fuchs?",
                 AnswerHeader = "Frau Fuchs ...",
                 Answers = new[] {
@@ -637,7 +585,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Solidarität ist ein gesellschaftspolitisches Prinzip, das in der Bundesrepublik Deutschland angewendet wird.",
-                PicturePath = "",
                 Question = "Welcher der folgenden Sachverhalte entspricht dem Prinzip der Solidarität?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -655,7 +602,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Mitarbeiter der Krypto-Control GmbH diskutieren in der Mittagspause über die unterschiedlichen Möglichkeiten einer privaten Altersversorge.",
-                PicturePath = "",
                 Question = "Welche der folgenden wirtschaftlichen Entwicklungen gefährdet eine private Altersvorsorge?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -673,7 +619,6 @@
                 Choices = 2,
                 IsMultipleChoice = true,
                 QuestionHeader = "Die Krypto-Control GmbH ist ein erwerbswirtschaftliches Unternehmen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen treffen auf ein erwerbswirtschaftliches Unternehmen zu",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -693,7 +638,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Sie erfahren von der Gründung der Volt GmbH, einem neuen Mitbewerber.",
-                PicturePath = "",
                 Question = "Mit welchem der folgenden Ereignisse wird eine GmbH rechtsfähig?",
                 AnswerHeader = "Mit ...",
                 Answers = new[] {
@@ -711,7 +655,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Krypto-Control GmbH will ein IT-Servicecenter in der Rechtsform einer GmbH gründen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen zur GmbH ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -729,7 +672,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Das Verhalten von Konsumenten hängt von verschiedenen Faktoren ab.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -747,7 +689,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Der Verbraucherschutz ist ein zentrales Element der sozialen Marktwirtschaft.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen trifft auf den Verbraucherschutz zu?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -765,7 +706,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Arbeitnehmer treffen Maßnahmen zur persönlichen Existenzsicherung.",
-                PicturePath = "",
                 Question = "Welcher der folgenden Maßnahmen ist zur persönlichen Existenzsicherung geeignet?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -783,7 +723,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Herr Scholz, ein 21-jähriger Mitarbeiter der Krypto-Control GmbH, will kündigen und ein eigenes Unternehmen gründen, um als Vollkaufmann einen Onlineshop für IT-Zubehör zu betreiben.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen zur Unternehmensgründung ist zutreffend?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -801,7 +740,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Arbeitsleistung der Krypto-Control GmbH wird von verschiedenen Wirtschaftseinheiten erbracht.",
-                PicturePath = "",
                 Question = "In welchem der folgenden Fälle handelt es sich um einer betriebliche Arbeitsteilung (Arbeitszerlegung)?",
                 AnswerHeader = "Die Krypto-Control GmbH ...",
                 Answers = new[] {
@@ -819,7 +757,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Krypto-Control GmbH hat sich mit den Auswirkungen der Globalisierung auseinanderzusetzen.",
-                PicturePath = "",
                 Question = "Welche der folgenden Auswirkungen trifft auf die Krypto-Control GmbH zu?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -837,7 +774,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "Die Wirtschaftsordnung Deutschlands wird als soziale Marktwirtschaft bezeichnet.",
-                PicturePath = "",
                 Question = "Welche der folgenden Aussagen trifft auf die soziale Marktwirtschaft zu?",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -856,8 +792,647 @@
                 Id = WisoList.Count + 1,
                 Choices = 1,
                 IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH will eine Stelle neu besetzen. Mit einer Bewerberin soll ein Einstellungsgespräch geführt werden.",
+                Question = "Nach welcher der folgenden Eigenschaften darf eine Bewerberin in einem Einstellungsgespräch nicht gefragt werden?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Beruflicher Werdegang",
+                     "Familienstand",
+                     "Mitgliedschaft in einer Gewerkschaft",
+                     "Krankenkassenzugehörigkeit",
+                     "Alter"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Mitarbeiterin der Easter GmbH, Marina Meußling, ist erstmaliig erkrankt und langfristig arbeitsunfähig",
+                Question = "Wie viele Wochen muss die Easter Gmbh den Lohn gemäß dem Entgeltfortzahlungsgesetz weiterzahlen.",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "6 Wochen",
+                     "3 Wochen",
+                     "4 Monate",
+                     "12 Tage"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 2,
+                IsMultipleChoice = true,
+                QuestionHeader = "In der Easter GmbH wurden verschiedene Sachverhalte durch betriebliche und tarifliche Vereinbarungen geregelt.",
+                Question = "Welche der folgenden Sachverhalte können durch eine Betriebsvereinbarung geregelt werden?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Einführung einer Gleitzeitregelung für die Mitarbeiter der Easter GmbH",
+                     "Die Anzahl der Urlaubstage",
+                     "Die Höhe der Arbeitsengelte nach Gehaltsgruppe",
+                     "Aufstellung des Urlaubsplans",
+                     "Erhöhung der regelmäßigen täglichen Arbeitszeit auf 12 Stunden",
+                     "Die Dauer der Entgeltfortzahlung im Krankheitsfall"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "In der IT-Solutions GmbH, einer Kundin der Easter GmbH, haben der Arbeitgeber und der Betriebsrat einen Sozialplan ausgearbeitet.",
+                Question = "In welchem der folgenden Fälle ist ein Sozialplan auszuarbeiten?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Aussperrung",
+                     "Betriebserweiterung",
+                     "Massenentlassungen",
+                     "Einführung von Sozialmaßnahmen",
+                     "Kurzarbeit"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "In der Wirtschaftsordnung der Bundesrepublik Deutschland werden die Arbeitgeber- und die Arbeitnehmerverbände als Sozialpartner bezeichnet.",
+                Question = "Welches der folgenden Rechte steht den beiden Sozialpartnern zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Festlegung der beitragsmessenungsgrenzen in der Sozialversicherung",
+                     "Abschluss von Tarifverträgen",
+                     "Verkürzung der Kündigungsfristen bei Arbeitsverhältnissen",
+                     "Verkürzung des Mindesturlaubes",
+                     "Erlass von Prüfungsordnungen für anerkannte Ausbildungsberufe"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Interessen der Mitarbeiter werden in der Easter GmbH durch den gewählten Betriebsrat vertreten.",
+                Question = "In welcher der folgenden Angelegenheiten hat der Betriebsrat laut Betriebsverfassungsgesetz ein Mitbestimmungsrecht?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Einführung einer Arbeitszeiterfassung",
+                     "Eröffnung einer neuen Filiale",
+                     "Einführung eines neuen Warenwirtschaftssystems",
+                     "Einführung einer neuen Lagerhalle",
+                     "Einstellung eines neuen Geschäftsführers"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH überträgt dem neuen Filialleiter Peter Müller Prokura.",
+                Question = "Welche der folgenden Aussagen trifft auf Prokura zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Der Prokurist unterzeichnet Geschäftsbriefe mit i. V. Peter Müller.",
+                     "Die Ereteilung der Prokura wird in das Handelsregister eingetragen.",
+                     "Der Prokurist kann ohne besondere Vollmacht Grundstücke verkaufen.",
+                     "Der Prokurist kann das Unternehmen veräußern.",
+                     "Der Prokurist unterschreibt die jährliche Bilanz."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Im Rahmen der Tarifverhandlungen wird zwischen Lohn- und Gehaltstarif und dem normalerweise längerfristig geltenden Manteltarif unterschieden.",
+                Question = "Welcher der folgenden Inhalte wird typischerweise in einem Lohn- und Gehaltstarif geregelt?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Kündigungsfristen",
+                     "Tägliche und wöchentliche Arbeitszeit",
+                     "Urlaubstage",
+                     "Gehaltssätze für die einzelnen Gehaltsgruppen",
+                     "Sonderleistungen"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Nach der Abschlussprüfung informieren Sie sich über Möglichkeiten der beruflichen Fortbildung.",
+                Question = "Welcher der folgenden Sachverhalte ist ein Beispiel für eine berufliche Fortbildung?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Lars Ruschmeyer besucht nach dem Realschulabschluss (MSA) die Berufsfachschule für Kaufmännische Assistenten.",
+                     "Ein Auszubildender der Easter GmbH nimmt in einer überbetrieblichen Ausbildungsstätte an einem Lehrganz zum Thema IT-Sicherheit teil.",
+                     "Sie besuchen an der Volkshochschule einen Segelkurs.",
+                     "Ein Auszubildender mit Abitur will nach Abschluss der Ausbildung studieren.",
+                     "Die Mitarbeiterin Lena Hellmers nimmt nach der Ausbildung zur IT-System-Kauffrau an einem Fernlehrgang 'Business English' teil."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH ist gesetzlich verpflichtet, für die Mitarbeiter Einkommenssteuer abzuführen.",
+                Question = "Welche der folgenden Aussagen trifft auf die Einkommenssteuer zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Die Einkommenssteuer steht ausschließlich dem Bund zu.",
+                     "Die Einkommenssteuersätze steigen linear zum Einkommen.",
+                     "Die Einkommenssteuer wird unabhängig vom Familienstand berechnet.",
+                     "Verheiratete Mitarbeiter können die Steuerklasse III, IV oder V haben.",
+                     "Die Einkommenssteuersätze sind in jedem Bundesland unterschiedlich."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Ein Mitarbeiter der Easter GmbH wird in Kürze Vater.",
+                Question = "Welcher der folgenden Aussagen stimmt mit dem Bundeselterngeld- und Elternzeitgesetz (BEEG) überein?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Elternzeit kann nur dann in Anspruch genommen werden, wenn der Arbeitgeber zustimmt.",
+                     "Elternzeit kann nur von Müttern in Anspruch genommen werden.",
+                     "Elternzeit kann entweder nur vom Vater oder nur von der Mutter in Anspruch genommen werden.",
+                     "Das Elterngeld ist in der Höhe begrenzt.",
+                     "Elterngeld wird einheitlich und einkommensunabhängig gewährt."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Kunden der Easter GmbH sind sowohl öffentlich-rechtliche Unternehmen, die nach dem Kostendeckungsprinzip arbeiten, als auch erwerbswirtschaftliche Unternehmen, die gewinnorientiert arbeiten.",
+                Question = "Welches der folgenden Unternehmen arbeitet nach dem Kostendeckungsprinzip?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "SAP AG, Berlin",
+                     "Microsoft GmbH",
+                     "Stadtwerke Lübeck",
+                     "Buchhandlung Hugendubel GmbH",
+                     "Adobe Systems GmbH"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH verfolgt unterschiedliche Zielsetzungen. Einige Ziele lassen sich gut miteinander verbinden (komplementäre Ziele). Andere Ziele schließen sich jedoch gegenseitig aus (konkurrierende Ziele).",
+                Question = "In welcher der folgenden Aussagen handelt es sich um komplementäre Ziele?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Verringerung von Risiken durch Währungsschwankungen und Erhöhung der Exporte in Nicht-EU-Ländern.",
+                     "Reduzierung der Kosten und Erhöhung der Löhne.",
+                     "Entlassung von Mitarbeitern und Reduzierung der Überstunden.",
+                     "Abbau von Arbeitsplätzen und Outsourcing des Rechnungswesens.",
+                     "Erhöhung der Sozialleistung und Seknung der Lohnnebenkosten."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH will mit der Cashsystems GmbH fusionieren. Die Cashsystems GmbH verliert ihre wirtschaftliche und rechtliche Selbstständigkeit.",
+                Question = "Welche der folgenden Aussagen trifft auf eine Fusion zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Eine Fusion führt immer zu Preissenkungen.",
+                     "Die Easter GmbH möchte ihre Marktanteile ausweiten.",
+                     "Eine Fusion führt immer zur Sicherung der Arbeitsplätze.",
+                     "Durch eine Fusion wird der Wettbewerb gefördert.",
+                     "Durch eine Fusion werden alle Standorte gesichert."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 2,
+                IsMultipleChoice = true,
+                QuestionHeader = "Die Easter GmbH will ein Tochterunternehmen in der Rechtsform einer GmbH mit vorerst zehn Mitarbeitern gründen.",
+                Question = "Welche der folgenden Vorschriften sind dabei zu beachten?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Als Firma muss eine Sachfirma gewählt werden.",
+                     "Die Gründung kann allein durch die Easter GmbH erfolgen.",
+                     "Das Stammkapital muss mindestens 25.000 EUR betragen.",
+                     "Es muss ein Aufsichtsrat bestellt werden.",
+                     "Die Easter GmbH haftet solidarisch für das Tochterunternehmen.",
+                     "Die Gründung bedarf der Genehmigung des Kartellamtes."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "In einem Arbeitstreffen analysieren Sie verschiedene Marktsituationen.",
+                Question = "Welcher der folgenden Indikatoren weist auf einen Verkäufermarkt hin?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Auf dem Markt für USB-Sticks gibt es weniger Nachfrager als Anbieter.",
+                     "Einem großen Angebot an Laptops steht ein relativ geringere Nachfrage gegenüber.",
+                     "In der IT-Branche herrscht starker Wettbewerb.",
+                     "Das Angebot an Laptops übersteigt die Nachfrage.",
+                     "Die Nachfrage nach USB-Sticks ist größer als das Angebot."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Der 16-Jährige Auszubildende Peter Müller kauft einen Motorroller im Wert von 2.299,00 EUR.",
+                Question = "Welche der folgenden Aussagen trifft auf dieses Rechtsgeschäft zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Das Rechtsgeschäft ist nichtig.",
+                     "Das Rechtsgeschäft ist anfechtbar.",
+                     "Das Rechtsgeschäft ist bis zur Zustimmung der gesetzlichen Vertreter schwebend unwirksam.",
+                     "Das Rechtsgeschäft ist uneingeschränkt gültig.",
+                     "Peter Müller ist nicht rechtsfähig."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Heinz Müller und Petra Schmitz, die mehrere Jahre in der Easter GmbH beschäftigt waren, wollen sich mit einem IT-Unternehmen selbstsändig machen." +
+                                 "\nDie finanzierende Bank erwartet von den Existenzgründen die Vorlage eines Businessplans.",
+                Question = "Welche der folgenden Aussagen über einen Businessplan trifft zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Im Businessplan werden die strategischen Ziele der geplanten Unternehmungen festgelegt.",
+                     "Der Businessplan wird von der IHK des Kammerbezirks ausgestellt, in dem das Unternehmen gegründet wird.",
+                     "Der Businessplan wird im Handelsregister hinterlegt.",
+                     "Ein Businessplan muss nur bei der Gründung von Kapitalgesellschaften erstellt werden.",
+                     "Ein Businessplan ist nur bei der Aufnahme von Darlehen notwendig."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Easter GmbH handelt mit Waren, die in weltweiter Arbeitsteilung hergestellt werden.",
+                Question = "Welche der folgenden Aussagen trifft auf die weltweite Arbeitsteilung zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Durch die weltweite Arbeitsteilung in allen Ländern gleich hohe soziale und ökologische Standards garantiert.",
+                     "Die Umweltbelastung durch den Transport der Waren nimmt ab.",
+                     "Auf dem weltweiten Arbeitsmarkt herrscht eine allgemeine Arbeitnehmerfreizügigkeit.",
+                     "Durch die weltweite Arbeitsteilung nimmt die Menge der transportierten Waren stetig zu.",
+                     "Die Produktion erfolgt jeweils in den Ländern mit den ökologisch besten Standards."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Volkswirtschaft der Bundesrepublik Deutschland profitiert von der Globalisierung.",
+                Question = "Welche der folgenden Maßnahmen fördert die Globalisierung?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Die Erhöhung der Importzölle.",
+                     "Die Erhöhung von Steuern für Transportdienstleistungen.",
+                     "Die Erhöhung von Exportschranken.",
+                     "Ein deutsches Unternehmen eröffnet Niederlassungen in Asien und Amerika.",
+                     "Ein deutsches Unternehmen zentralisiert die Fertigung in Deutschland."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die soziale Marktwirtschaft ist in Deutschland ein gesellschafts- und wirtschaftspolitisches Leitbild.",
+                Question = "Welche der folgenden Aussagen zur sozialen Marktwirtschaft ist zutreffend?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Der Staat fördert Monopole und Kartelle, um einen Leistungswettbewerb zu verhindern.",
+                     "Der Staat greift regulierend in Märkte ein, indem er für Waren Mindest- und Höchstpreise sowie Angebotsmengen festsetzt.",
+                     "Durch sozialen Ausgleich und solidarische Hilfe soll eine Chancengerechtigkeit erreicht werden.",
+                     "Durch die Gesetzgebung werden alle Wettbewershemmnisse vermieden, sodass auf den Märkten eine vollständige Konkurrenz erreicht wird.",
+                     "Alle von Insolvenz bedrohten Unternehmen werden auf Antrag durch staatliche Subventionen gestützt."
+                     }
+            });
+
+            // SO-17
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Für die Entwicklung des neuen Geschäftsfeldes Clouddienste plant Ecotec GmbH die Einstellung von Mitarbeitern." +
+                                 "\nIn den Arbeitsverträgen der neuen Mitarbeiter soll eine regelmäßige tägliche Arbeitszeit von zehn Stunden vereinbart werden." +
+                                 "\nDie Ecotec GmbH arbeitet fünf Tage in der Woche von Montag bis Freitag.",
+                Question = "Welche der folgenden Aussagen zur regelmäßigen täglichen Arbeitszeit trifft zu?",
+                AnswerHeader = "Die Vereinbarung ...",
+                Answers = new[] {
+                     "ist zulässig, wenn sie tarifvertaglich vereinbart wurde.",
+                     "ist zulässig, wenn der Betriebsrat mit der Geschäftsleitung eine entsprechende Betriebsvereinbarung abschließt.",
+                     "ist zulässig, weil die tägliche Arbeitszeit keiner gesetzlichen Beschränkung unterliegt.",
+                     "ist zulässig, weil in der Ecotec GmbH samstags nicht gearbeitet wird.",
+                     "ist nicht zulässig, weil lauf Arbeitszeitgesetz eine zehnstündige Arbeitszeit nur in Ausnahmefällen erlaubt ist."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Für die neuen Mitarbeiter soll in den Arbeitsverträgen eine Probezeit von sechs Monaten vereinbart werden.",
+                Question = "Welche der folgenden Aussagen trifft auf die vereinbarte Probezeit zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Der Arbeitgeber kann das Arbeitsverhältnis während der Probezeit nicht kündigen.",
+                     "Das Arbeitsverhältnis kann während der Probezeit mit einer Frist von zwei Wochen gekündigt werden.",
+                     "Der Arbeitgeber kann das Arbeitsverhältnis nur aus wichtigem Grund kündigen.",
+                     "Während der Probezeit kann nur der Arbeitnehmer das Arbeitsverhältnis kündigen.",
+                     "Die Probezeit darf maximal drei Monate betragen."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 3,
+                IsMultipleChoice = true,
+                QuestionHeader = "Die Geschäftsleitung der Ecotec GmbH arbeitet mit dem Betriebsrat zusammen.",
+                Question = "in welchen der folgenden Angelegenheiten hat der Betriebsrat laut Betriebsverfassungsgesetz ein Mitbestimmungsrecht?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Einführung eines Personalbeurteilungssystems",
+                     "Planung des Personalbedarfs",
+                     "Erstellung eines Sozialplans",
+                     "Einführung neuer Arbeitsverfahren",
+                     "Errichten einer neuen Lagerhalle",
+                     "Gründung einer Filiale",
+                     "Umwandlung der Rechtsform",
+                     "Erstellung des Urlaubsplans"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Der Betriebsrat der Ecotec GmbH lädt zur vierteljährlichen Betriebsversammlung ein.",
+                Question = "Welcher der folgenden Personenkreise ist berechtigt, an der Betriebsversammlung teilzunehmen?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Nur die gewerkschaftlich organisierten Mitarbeiter",
+                     "Nur die Betriebsratmitglieder und die Gewerkschaftsvertreter",
+                     "Nur die Vollzeitmitarbeiter und die Führungskräfte",
+                     "Nur die Vollzeitmitarbeiter und die Auszubildenden",
+                     "Alle Arbeitnehmer des Unternehmens"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "In Tarifverhandlungen wird zwischen Lohn- und Gehaltstarifvertrag und dem Manteltarifvertrag unterschieden.",
+                Question = "Welche der folgenden Regelungen wird im Manteltarifvertrag vereinbart?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Urlaubstage",
+                     "Gleitzeitregelungen",
+                     "Gehaltssätze für die einzelnen Gehaltsgruppen",
+                     "Ausbildungsvergütung",
+                     "Sonderleistungen"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Ecotec GmbH ist an Vereinbarungen gebunden, die die Sozialpartner miteinander vereinbar haben.",
+                Question = "Welche der folgenden Einrichtungen wird zu den Sozialpartnern gerechnet?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Deutsche Sozialversicherung",
+                     "Arbeitnehmerverbände",
+                     "Bundesagentur für Arbeit",
+                     "Bundesministerium für Arbeit und Soziales",
+                     "Industrie- und Handelskammern"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Mitarbeiter der Ecotec GmbH sind in der gesetzlichen Krankenversicherung (GKV) pflichtversichert.",
+                Question = "Welche der folgenden Aussagen trifft auf die gesetzliche Krankenversicherung zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Die Versicherungspflichtgrenze gibt an, ab welchem Jahresbruttoentgelt ein Arbeitnehmer in der GKV versichert sein muss.",
+                     "Ein Wechsel der Krankenkasse ist nur mit Zustimmung des Arbeitgebers möglich.",
+                     "Der Beitragssatz wird vom Bundesministerium für Gesundheit festgelegt.",
+                     "Der Beitrag wird vom Nettolohn berechnet.",
+                     "Auf den Teil des Bruttolohns, der die Beitragsermessungsgrenze übertsteigt, wird kein Beitrag erhoben."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 2,
+                IsMultipleChoice = true,
+                QuestionHeader = "Die Arbeitnehmer der Ecotec GmbH sind gesetzlich unfallversichert.",
+                Question = "Welche der folgenden Fälle werden von der gesetzlichen Unfallversicherung abgedeckt?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Die Mitarbeiterin Petra Karst rutscht im Lager aus und verstaucht sich den Fuß.",
+                     "Der Mitarbeiter Yannick Weber ist wegen einer Grippeerkrankung arbeitsunfähig.",
+                     "Der Mitarbeiter Tim Schneider stürzt im heimischen Garten und bricht sich ein Bein.",
+                     "Die Auszubildende Sophie Schmitz rutscht auf dem direkten Weg zur Arbeit aus und zieht sich eine Bänderdehnung zu.",
+                     "Das Kind der Mitarbeiterin Sarah Buchholz ist an Masern erkrankt und muss zu Hause von der Mutter betreut werden.",
+                     "Der Mitarbeiter Marco Bode sucht seinen Augenarzt auf, weil seine Sehkraft sich verschlechtert hat."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Zwei 25-Jährige Mitarbeiter der Ecotec GmbH diskutieren in der Mittagspause über die Möglichkeiten der gesetzlichen Rentenversicherung und die Möglichkeit der privaten Altersvorsorge.",
+                Question = "Welches der folgenden Argumente trifft zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Eine private Altersvorsorge ist nicht notwendig, weil die gesetzliche Rentenversicherung auf jeden Fall ausreichen wird.",
+                     "Der demografische Wandel sorgt auch in Zukunft für genug Beitragszahler, weshalb das Rentenniveau der gesetzlichen Rentenversicherung steigt.",
+                     "Eine private Altersvorsorge ist sinnvoll, weil das Rentenniveau in der gesetzlichen Rentenversicherung sinken wird.",
+                     "Eine private Altersvorsorge lohnt sich nicht, weil das Zinsneveau zu niedrig ist.",
+                     "Eine private Altersvorsorge ist nur notwendig, wenn die Inflationsrate steigt."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Subsidiarität und Solidarität sind gesellschaftpolitische Prinzipien, die in der Bundesrepublik Deutschland angewendet werden.",
+                Question = "Welcher der folgenden Sachverhalte entspricht dem Prinzip der Solidarität?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Aufgrund von Gleichbehandlungsgrundsätzen streicht der Staat Transferleistungen.",
+                     "Die Steuern auf Kapitalerträge werden gesenkt.",
+                     "Die Feibeträge bei der Erbschaftssteuer werden erhöht.",
+                     "Eine 18-jährige Berufsschülerin ist beitragsfrei bei ihren Eltern in der Kranken- und Pflegeversicherung mitversichert.",
+                     "Der Staat gestattet Bürgern, die über mehr als das Doppelte des durchschnittlichen Haushaltseinkommens verfügen, einen Teil des Einkommens steuerfrei im Ausland zu hinterlegen."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "In Deutschland gibt es neben privaten Betrieben auch öffenntlich-rechtliche Betriebe.",
+                Question = "Welches der folgenden Ziele trifft auf einen öffentlich-rechtlichen Betrieb zu?",
+                AnswerHeader = "Ein öffentlichlich-rechtlicher Betrieb verfolgt primär das Ziel ...",
+                Answers = new[] {
+                     "der Gewinnmaximierung.",
+                     "der Kostenminimierung.",
+                     "der bestmöglichen Versorgung der Bevölkerung mit bestimmten Dienstleistungen oder Sachgütern (z.B. mit Wasser).",
+                     "der Umsatzsteigerung.",
+                     "der Dividendenausschüttung."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Nachfrage der Kunden (Konsumenten) der Ecotec GmbH hängt von verschiedenen Faktoren ab.",
+                Question = "Welche der folgenden Aussagen trifft zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Der Bedarf der Konsumenten ist gleich der Menge der Bedürfnisse.",
+                     "Der Bedarf der Konsumenten ist abhängig von der Kaufkraft.",
+                     "Die Nachfrage der Konsumenten ist abhängig vom Angebot.",
+                     "Die Bedürfnisse der Konsumenten entsprechen dem Angebot.",
+                     "Die Bedürfnisse der Konsumenten entsprechen deren Nachfrage."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die 16-jährige Laura Peters verfügt über eine monatliche Ausbildungsvergütung von 695,00 EUR. Sie ist leidenschaftlich PC-Gamerin und bestellt bei der Ecotec GmbH einen High-End-PC zum Preis von 4.999,00 EUR.",
+                Question = "Welche der folgenden Aussagen zu diesem Rechtsgeschäft trifft zu?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Mit Beginn der Ausbildung ist Frau Peters unbeschränkt geschäftsfähig.",
+                     "Das Rechtsgeschäft ist bis zur Zustimmung der gesetzlichen Vertreter schwebend unwirksam.",
+                     "Das Rechtsgeschäft ist gültig. weil Frau Peters unbeschränkt rechtsfähig ist.",
+                     "Auszubildende sind generell geschäftsunfähig.",
+                     "Rechtsgeschäfte beschränkt Geschäftsfähiger über 1.000 EUR bedürfen der Zustimmung des Familiengerichts."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 2,
+                IsMultipleChoice = true,
+                QuestionHeader = "Die Ecotec GmbH hat einen großen Kundenstamm mit privaten als auch gewerblichen Kunden.",
+                Question = "Welche der folgenden Kunden sind juristische Personen?",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "Städtische Werke Nürnberg GmbH",
+                     "Prokurist Daniel Kleiber",
+                     "Rechtsanwältin Sophie Kropp",
+                     "Novobyte AG",
+                     "Wirtschaftsprüfer Josef Ohlert",
+                     "Fachinformatikerin Carolin Schult"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Ecotec GmbH überträgt der Mitarbeiterin Meike Schipp Allgemeine Handlungsvollmacht.",
+                Question = "Mit welcher der folgenden Unterschriften muss Frau Schipp einen Vertrag unterzeichnen?",
+                AnswerHeader = "Ecotec GmbH ...",
+                Answers = new[] {
+                     "Schipp",
+                     "Meike Schipp",
+                     "ppa. Schipp",
+                     "i. V. Schipp",
+                     "a. H. Schipp"
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "Die Arbeitsleistung der Ecotec GmbH werden von verschiedenen Wirtschaftseinheiten erbracht.",
+                Question = "In welchem der folgenden Fälle handelt es sich um eine betriebliche Arbeitsteilung (Arbeitszerlegung)?",
+                AnswerHeader = "Ecotec GmbH ...",
+                Answers = new[] {
+                     "gliedert einen Schritt des Leistungsprozesses an die Byte GmbH aus.",
+                     "lässt von einem Mitarbeiter ein Produkt aus Komponenten zusammebauen, die von verschiedenen externen Unternehmen hergestellt wurden.",
+                     "organisiert mehrere Prozesse als 'supply chain', in denen Lieferanten, Abteilungen der Ecotec GmbH und Kunden miteinander vernetzt sind.",
+                     "eröffnet eine Filiale in Niedersachsen, die in allen Geschäftsfeldern selbstständig operieren soll.",
+                     "produziert ein Produkt in mehrere Arbeitsschritten, die von mehreren Arbeitskräften ausgeführt werden."
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
                 QuestionHeader = "",
-                PicturePath = "",
                 Question = "",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -872,7 +1447,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "",
-                PicturePath = "",
                 Question = "",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -887,7 +1461,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "",
-                PicturePath = "",
                 Question = "",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -902,7 +1475,6 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "",
-                PicturePath = "",
                 Question = "",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -917,7 +1489,104 @@
                 Choices = 1,
                 IsMultipleChoice = false,
                 QuestionHeader = "",
-                PicturePath = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
+                Question = "",
+                AnswerHeader = "",
+                Answers = new[] {
+                     "",
+                     ""
+                     }
+            });
+
+            WisoList.Add(new Wiso_Q()
+            {
+                Id = WisoList.Count + 1,
+                Choices = 1,
+                IsMultipleChoice = false,
+                QuestionHeader = "",
                 Question = "",
                 AnswerHeader = "",
                 Answers = new[] {
@@ -939,7 +1608,6 @@
 
 
 
-            
 
             return WisoList;
         }

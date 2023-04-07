@@ -10,7 +10,6 @@ namespace Wiso_Learning_App
     {
         public int Id { get; set; }
         public bool IsMultipleChoice { get; set; }
-        public string PicturePath { get; set; }
         public string QuestionHeader { get; set; }
         public string Question { get; set; }
         public string AnswerHeader { get; set; }
